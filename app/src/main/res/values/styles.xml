@@ -8,8 +8,4 @@
         <item name="fontFamily">@font/simonetta</item>
     </style>
 
-    <style name="ToolbarActionStyle"  parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="fontFamily">@font/simonetta_italic</item>
-    </style>
-
 </resources>
