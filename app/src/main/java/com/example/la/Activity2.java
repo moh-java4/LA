@@ -19,17 +19,17 @@ public class Activity2 extends AppCompatActivity {
 
         textView1 = findViewById(R.id.text_view1);
 
-        final Typeface t1 = ResourcesCompat.getFont(this, R.font.simonetta_black);
-        final Typeface t2 = ResourcesCompat.getFont(this, R.font.simonetta_regular);
+        //final Typeface t1 = ResourcesCompat.getFont(this, R.font.simonetta_black);
+        //final Typeface t2 = ResourcesCompat.getFont(this, R.font.simonetta_regular);
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (changeFont) {
-                    textView1.setTypeface(t1);
+                    //textView1.setTypeface(t1);
                     changeFont = false;
                 } else {
-                    textView1.setTypeface(t2);
+                    //textView1.setTypeface(t2);
                     changeFont = true;
                 }
             }
